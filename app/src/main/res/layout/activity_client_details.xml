@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome do Cliente"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="João Silva"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo de App"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_detail_app_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bob Player"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAC Address"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_detail_mac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:11:22:33:44:55"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device Key"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_detail_device_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABC123XYZ789"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data de Validade"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_detail_license_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="31/12/2025"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status da Licença"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_detail_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ Licença Ativa (150 dias)"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:background="@color/purple_500"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:spacing="8dp">
+
+        <Button
+            android:id="@+id/btn_edit_detail"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Editar"
+            android:backgroundTint="@color/purple_500" />
+
+        <Button
+            android:id="@+id/btn_delete_detail"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Deletar"
+            android:backgroundTint="@color/teal_700" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Voltar"
+            android:backgroundTint="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>

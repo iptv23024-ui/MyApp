@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gerenciador de Licenças</string>
+    <string name="welcome_text">Bem-vindo ao Gerenciador de Licenças!</string>
+    <string name="add_client">Adicionar Cliente</string>
+    <string name="edit_client">Editar Cliente</string>
+    <string name="client_name">Nome do Cliente</string>
+    <string name="app_type">Tipo de App</string>
+    <string name="mac_address">MAC Address</string>
+    <string name="device_key">Device Key</string>
+    <string name="license_date">Data de Validade</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Deletar</string>
+    <string name="edit">Editar</string>
+    <string name="refresh">Atualizar</string>
+    <string name="back">Voltar</string>
+    <string name="license_active">✅ Licença Ativa</string>
+    <string name="license_warning">⚠️ Expira em breve</string>
+    <string name="license_expired">❌ Licença Expirada</string>
+</resources>
